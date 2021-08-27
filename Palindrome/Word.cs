@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Palindrome
 {
-    class Word
+    public class Word
     {
-        private string word;
-        private string reverseWord;
-        private char[] arr;
+        public string word { get; set; }
+        public string reverseWord { get; set; }
+        public char[] arr { get; set; }
 
         public Word(string word, char[] arr)
         {

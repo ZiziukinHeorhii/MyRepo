@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Palindrome
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.Write("Введите слово: ");
             string input = Console.ReadLine();
